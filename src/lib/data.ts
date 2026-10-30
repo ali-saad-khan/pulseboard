@@ -10,7 +10,7 @@ export interface Order {
 
 const names = ["Ayesha", "Omar", "Lena", "Hiro", "Maya", "Noah", "Sara", "Ivan", "Zoya", "Liam", "Nadia", "Ravi"];
 const regions: Order["region"][] = ["EMEA", "APAC", "AMER"];
-const statuses: Status[] = ["paid", "paid", "paid", "pending", "refunded"];
+const statuses: Status[] = ["paid", "paid", "paid", "paid", "paid", "paid", "paid", "pending", "pending", "refunded", "paid", "paid"];
 
 /** Deterministic pseudo-random generator so the demo data is stable across reloads and tests. */
 function mulberry32(seed: number) {
